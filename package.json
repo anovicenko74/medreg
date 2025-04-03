@@ -1,6 +1,6 @@
 {
   "name": "medreg",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "packageManager": "yarn@4.4.1",
   "type": "module",
   "scripts": {
