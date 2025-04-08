@@ -27,6 +27,8 @@ await sleepy()
 await page.reload()
 await goToDoctorSpecialization()
 
+registrationSchedule()
+
 async function registrationSchedule() {
     if (successReg) {
         console.log('Exit from program')
@@ -35,7 +37,6 @@ async function registrationSchedule() {
     await registration()
     setTimeout(registrationSchedule, SCHEDULE_TIME)
 }
-registrationSchedule()
 
 async function registration() {
     for (let name of doctorNames) {
